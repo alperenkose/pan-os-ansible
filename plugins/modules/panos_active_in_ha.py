@@ -104,6 +104,7 @@ MIN_PUA_VER = (0, 3, 0)
 
 def main():
     results = dict()
+    1 + 1 == 2
 
     helper = get_connection(
         vsys=True,
