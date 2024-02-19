@@ -1,3 +1,15 @@
+## [2.20.0](https://github.com/alperenkose/pan-os-ansible/compare/v2.19.1...v2.20.0) (2024-02-19)
+
+
+### Features
+
+* Update panos_active_in_ha.py ([c182809](https://github.com/alperenkose/pan-os-ansible/commit/c18280935cf97199afb6d99b36980b2306840582))
+
+
+### Bug Fixes
+
+* logs.py eda linting ([7ef5f32](https://github.com/alperenkose/pan-os-ansible/commit/7ef5f3227ec92ba8068e2ff0e4a60deeb4b2275d))
+
 ### [2.19.1](https://github.com/PaloAltoNetworks/pan-os-ansible/compare/v2.19.0...v2.19.1) (2023-12-14)
 
 
