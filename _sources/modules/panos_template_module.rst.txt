@@ -254,6 +254,40 @@ Parameters
   * - .. raw:: html
 
         <div class="ansible-option-cell">
+        <div class="ansibleOptionAnchor" id="parameter-mode"></div>
+
+      .. _ansible_collections.paloaltonetworks.panos.panos_template_module__parameter-mode:
+
+      .. rst-class:: ansible-option-title
+
+      **mode**
+
+      .. raw:: html
+
+        <a class="ansibleOptionLink" href="#parameter-mode" title="Permalink to this option"></a>
+
+      .. rst-class:: ansible-option-type-line
+
+      :ansible-option-type:`string`
+
+      .. raw:: html
+
+        </div>
+
+    - .. raw:: html
+
+        <div class="ansible-option-cell">
+
+      Mode for template.
+
+
+      .. raw:: html
+
+        </div>
+
+  * - .. raw:: html
+
+        <div class="ansible-option-cell">
         <div class="ansibleOptionAnchor" id="parameter-name"></div>
 
       .. _ansible_collections.paloaltonetworks.panos.panos_template_module__parameter-name:
