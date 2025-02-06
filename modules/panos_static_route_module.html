@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -5,19 +7,15 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>paloaltonetworks.panos.panos_static_route module – Manage static routes on PAN-OS devices. &mdash; Palo Alto Networks Ansible Collection  documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
   
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -210,7 +208,7 @@
 <h1>paloaltonetworks.panos.panos_static_route module – Manage static routes on PAN-OS devices.<a class="headerlink" href="#paloaltonetworks-panos-panos-static-route-module-manage-static-routes-on-pan-os-devices" title="Link to this heading"></a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This module is part of the <a class="reference external" href="https://galaxy.ansible.com/paloaltonetworks/panos">paloaltonetworks.panos collection</a> (version 2.25.7).</p>
+<p>This module is part of the <a class="reference external" href="https://galaxy.ansible.com/paloaltonetworks/panos">paloaltonetworks.panos collection</a> (version 2.21.3).</p>
 <p>To install it, use: <code class="code docutils literal notranslate"><span class="pre">ansible-galaxy</span> <span class="pre">collection</span> <span class="pre">install</span> <span class="pre">paloaltonetworks.panos</span></code>.
 You need further requirements to be able to use this module,
 see <a class="reference internal" href="#ansible-collections-paloaltonetworks-panos-panos-static-route-module-requirements"><span class="std std-ref">Requirements</span></a> for details.</p>
@@ -347,10 +345,10 @@ see <a class="reference internal" href="#ansible-collections-paloaltonetworks-pa
 <div class="ansibleOptionAnchor" id="parameter-nexthop_type"></div><p class="ansible-option-title" id="ansible-collections-paloaltonetworks-panos-panos-static-route-module-parameter-nexthop-type"><strong>nexthop_type</strong></p>
 <a class="ansibleOptionLink" href="#parameter-nexthop_type" title="Permalink to this option"></a><p class="ansible-option-type-line"><span class="ansible-option-type">string</span></p>
 </div></td>
-<td><div class="ansible-option-cell"><p>Type of next hop.</p>
+<td><div class="ansible-option-cell"><p>Type of next hop. Defaults to <em>“ip-address”</em>.</p>
 <p class="ansible-option-line"><span class="ansible-option-choices">Choices:</span></p>
 <ul class="simple">
-<li><p><a href="#id11"><span class="problematic" id="id12">:ansible-option-choices-entry-default:`&quot;ip-address&quot;`</span></a> <span class="ansible-option-choices-default-mark">← (default)</span></p></li>
+<li><p><a href="#id11"><span class="problematic" id="id12">:ansible-option-choices-entry:`&quot;ip-address&quot;`</span></a></p></li>
 <li><p><a href="#id13"><span class="problematic" id="id14">:ansible-option-choices-entry:`&quot;discard&quot;`</span></a></p></li>
 <li><p><a href="#id15"><span class="problematic" id="id16">:ansible-option-choices-entry:`&quot;none&quot;`</span></a></p></li>
 <li><p><a href="#id17"><span class="problematic" id="id18">:ansible-option-choices-entry:`&quot;next-vr&quot;`</span></a></p></li>
